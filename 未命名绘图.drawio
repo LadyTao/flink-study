@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T10:11:57.466Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="nEIltujsCsMivHrZcYKz" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T02:23:42.652Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="yiLutShcAbS6Xtt4sAon" version="20.4.0" type="github">
   <diagram id="lKZjIByiZlXPRpi-Botg" name="第 1 页">
-    <mxGraphModel dx="1234" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-yjdNF9IUaXJCscSuPAM-64" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
-          <mxGeometry y="460" width="710" height="150" as="geometry" />
+          <mxGeometry x="2.5" y="460" width="710" height="150" as="geometry" />
         </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry y="170" width="530" height="250" as="geometry" />
@@ -13,11 +13,8 @@
         <mxCell id="-yjdNF9IUaXJCscSuPAM-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;strokeColor=#00CC00;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-2" target="-yjdNF9IUaXJCscSuPAM-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;strokeColor=#00CC00;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-2" target="-yjdNF9IUaXJCscSuPAM-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-2" value="kafka binlog" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="70" width="125" height="40" as="geometry" />
+          <mxGeometry x="712.5" y="70" width="125" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-3" target="-yjdNF9IUaXJCscSuPAM-6">
           <mxGeometry relative="1" as="geometry" />
@@ -28,14 +25,11 @@
         <mxCell id="-yjdNF9IUaXJCscSuPAM-3" value="regin hive" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="220" width="125" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.375;entryY=0;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;strokeColor=#FF3333;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-4" target="-yjdNF9IUaXJCscSuPAM-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=0;entryDx=0;entryDy=0;fontSize=12;strokeWidth=2;strokeColor=#FF3333;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-4" target="-yjdNF9IUaXJCscSuPAM-57">
+        <mxCell id="-yjdNF9IUaXJCscSuPAM-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF3333;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-4" target="-yjdNF9IUaXJCscSuPAM-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-4" value="local hbase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="285" width="125" height="40" as="geometry" />
+          <mxGeometry x="552.5" y="260" width="125" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;strokeColor=#00CC00;strokeWidth=2;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-6" target="-yjdNF9IUaXJCscSuPAM-4">
           <mxGeometry relative="1" as="geometry" />
@@ -43,17 +37,25 @@
         <mxCell id="-yjdNF9IUaXJCscSuPAM-6" value="按小时聚合，对user_id&lt;br&gt;count distinct, &lt;br&gt;需考虑时区" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="200" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;strokeColor=#00CC00;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-9" target="-yjdNF9IUaXJCscSuPAM-4">
+        <mxCell id="-yjdNF9IUaXJCscSuPAM-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-9" target="-yjdNF9IUaXJCscSuPAM-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="775" y="240" />
+              <mxPoint x="860" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-yjdNF9IUaXJCscSuPAM-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-9" target="-yjdNF9IUaXJCscSuPAM-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-9" value="tumble window按小时&lt;br&gt;聚合，user_id小时级别&lt;br&gt;的count distinct, 需考虑&lt;br&gt;时区，写入hbase" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="160" width="160" height="80" as="geometry" />
+        <mxCell id="-yjdNF9IUaXJCscSuPAM-9" value="tumble window按小时&lt;br&gt;聚合，user_id小时级别&lt;br&gt;的count distinct, 需考虑&lt;br&gt;时区，写入hbase与kafka&lt;br&gt;各一份" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="695" y="140" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=0;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;strokeColor=#00CC00;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-18" target="-yjdNF9IUaXJCscSuPAM-21">
+        <mxCell id="-yjdNF9IUaXJCscSuPAM-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-18" target="-yjdNF9IUaXJCscSuPAM-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-18" value="kafka (result topic)&lt;br&gt;存user_id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="890" y="180" width="125" height="40" as="geometry" />
+        <mxCell id="-yjdNF9IUaXJCscSuPAM-18" value="kafka (result topic)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="797.5" y="260" width="125" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;strokeColor=#00CC00;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-21" target="-yjdNF9IUaXJCscSuPAM-25">
           <mxGeometry relative="1" as="geometry" />
