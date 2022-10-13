@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T03:05:46.997Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="lteQ9SfnfVQpX9sb58UC" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T03:15:27.317Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="GUfEC43_A01Qb_K5iOow" version="20.4.0" type="github">
   <diagram id="lKZjIByiZlXPRpi-Botg" name="第 1 页">
     <mxGraphModel dx="1234" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-yjdNF9IUaXJCscSuPAM-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry y="200" width="530" height="220" as="geometry" />
+          <mxGeometry x="5" y="200" width="490" height="220" as="geometry" />
         </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;strokeColor=#00CC00;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-2" target="-yjdNF9IUaXJCscSuPAM-9">
           <mxGeometry relative="1" as="geometry" />
@@ -23,18 +23,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-4" value="local hbase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="1">
-          <mxGeometry x="552.5" y="260" width="125" height="40" as="geometry" />
+          <mxGeometry x="550" y="260" width="125" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-6" target="-yjdNF9IUaXJCscSuPAM-41">
+        <mxCell id="-yjdNF9IUaXJCscSuPAM-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-6" target="-yjdNF9IUaXJCscSuPAM-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-6" value="每天执行一次，&lt;br&gt;时间范围：(oldest, T-2]，&lt;br&gt;对user_id count distinct, &lt;br&gt;主键为：(T-2) + user_id&lt;br&gt;需考虑时区" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="240" width="160" height="80" as="geometry" />
+          <mxGeometry x="170" y="240" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-9" target="-yjdNF9IUaXJCscSuPAM-4">
           <mxGeometry relative="1" as="geometry" />
@@ -67,7 +67,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-41" value="kafka (history topic)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="360" width="140" height="40" as="geometry" />
+          <mxGeometry x="350" y="360" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
