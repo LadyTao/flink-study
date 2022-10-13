@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T08:24:05.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="tmIyhdHaemEgI3YEo-GJ" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T08:54:23.970Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="XAaH2PFkuPG_0M_hDnjv" version="20.4.0" type="github">
   <diagram id="lKZjIByiZlXPRpi-Botg" name="第 1 页">
     <mxGraphModel dx="1152" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -72,8 +72,8 @@
         <mxCell id="-yjdNF9IUaXJCscSuPAM-41" value="kafka (history topic)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="360" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-85" value="定时任务无法区分本次哪些user_id数据发生更新，导致下游的UTP无法感知更新" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="130" y="420" width="450" height="30" as="geometry" />
+        <mxCell id="-yjdNF9IUaXJCscSuPAM-85" value="1: 定时任务无法区分本次哪些user_id数据发生更新，导致下游的UTP无法感知更新，全量更新则UTP压力过大&lt;br&gt;2: 如果每天将全量的数据换成(T-2, T-1]，加上join的部分，此方案与下面的方案2似乎没有什么区别" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="130" y="130" width="600" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-107" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="100" y="740" width="495" height="210" as="geometry" />
@@ -122,7 +122,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-119" value="tumble window按天&lt;br&gt;聚合，user_id天级别&lt;br&gt;的count distinct, 需考虑&lt;br&gt;时区，写入hbase与kafka&lt;br&gt;各一份" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="660" width="160" height="80" as="geometry" />
+          <mxGeometry x="760" y="650" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-121" target="-yjdNF9IUaXJCscSuPAM-123">
           <mxGeometry relative="1" as="geometry" />
@@ -157,7 +157,7 @@
         <mxCell id="-yjdNF9IUaXJCscSuPAM-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-134" target="-yjdNF9IUaXJCscSuPAM-137">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-134" value="每天对user_id, update_time, transaction_id三个字段&lt;br&gt;[T-2,T-1]数据按天的维度&lt;br&gt;出一份统计值。需考虑时区" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="-yjdNF9IUaXJCscSuPAM-134" value="每天对user_id, update_time, transaction_id三个字段&lt;br&gt;(T-2,T-1]数据按天的维度&lt;br&gt;出一份统计值。需考虑时区" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="1030" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-135" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;对账流程&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
@@ -181,6 +181,9 @@
         </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-137" value="join Hbase, 如果hbase值小，&lt;br&gt;则启动更新流程，覆盖对应的hbase值，同时发送一份到kafka,&lt;br&gt;促动下游utp的更新" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="1030" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-yjdNF9IUaXJCscSuPAM-145" value="1: binlog数据乱序，数据迟到不可避免，导致flink窗口的统计值不准确，通过对账流程解决该问题&lt;br&gt;2: 业务数据会更新，如果一条数据在两个窗口内都出现，则会被统计两次，无法彻底解决&lt;br&gt;3: 当任务不从ck恢复，而是往前拨offset，如果拨的太久（超过2天前），会污染hbase数据，&lt;br&gt;如果拨太小（几小时，几分钟），则会使最近的数据不准确，依赖对账流程再去修复" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="655" width="530" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
