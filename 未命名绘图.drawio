@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T02:31:23.175Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="mPy091sT4AbSfECEM7fq" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-14T03:17:15.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="JJXS_iqpdHRrEwCbQKS5" version="20.4.0" type="github">
   <diagram id="lKZjIByiZlXPRpi-Botg" name="第 1 页">
     <mxGraphModel dx="1409" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -112,7 +112,7 @@
         <mxCell id="-yjdNF9IUaXJCscSuPAM-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-116" target="-yjdNF9IUaXJCscSuPAM-127">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-116" value="对user_id, update_time, transaction_id三个字段全量数据按天的维度出一份统计值。需考虑时区" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="-yjdNF9IUaXJCscSuPAM-116" value="对user_id, create_time, transaction_id三个字段全量数据按天的维度出一份统计值。需考虑时区" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="1050" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-119" target="-yjdNF9IUaXJCscSuPAM-113">
@@ -157,7 +157,7 @@
         <mxCell id="-yjdNF9IUaXJCscSuPAM-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-134" target="-yjdNF9IUaXJCscSuPAM-137">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-134" value="每天对user_id, update_time, transaction_id三个字段&lt;br&gt;(T-2,T-1]数据按天的维度&lt;br&gt;出一份统计值。需考虑时区" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="-yjdNF9IUaXJCscSuPAM-134" value="每天对user_id, create_time, transaction_id三个字段&lt;br&gt;(T-2,T-1]数据按天的维度&lt;br&gt;出一份统计值。需考虑时区" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="1320" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-yjdNF9IUaXJCscSuPAM-135" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;对账流程&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
