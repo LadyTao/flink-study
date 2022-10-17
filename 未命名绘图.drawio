@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T06:34:18.377Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="zlXZuv9MzvXFciKxe1h1" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T06:35:15.652Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="KTPL6VWAPqNHZStNC7GA" version="20.4.0" type="github">
   <diagram id="lKZjIByiZlXPRpi-Botg" name="第 1 页">
-    <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MG0zdi_hhvn_h3WvuUcr-1" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-1" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;strokeWidth=2;dashed=1;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="560" y="10" as="sourcePoint" />
-            <mxPoint x="560" y="840" as="targetPoint" />
+            <mxPoint x="670" y="25" as="sourcePoint" />
+            <mxPoint x="670" y="855" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -15,13 +15,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-2" value="regin hive" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="232.5" y="40" width="125" height="40" as="geometry" />
+          <mxGeometry x="332.5" y="60" width="125" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-3" target="MG0zdi_hhvn_h3WvuUcr-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-3" value="local maxwell kafka" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="792.5" y="40" width="125" height="40" as="geometry" />
+          <mxGeometry x="892.5" y="60" width="125" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-4" target="MG0zdi_hhvn_h3WvuUcr-10">
           <mxGeometry relative="1" as="geometry" />
@@ -29,13 +29,13 @@
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-4" target="MG0zdi_hhvn_h3WvuUcr-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="150" y="165" />
-              <mxPoint x="150" y="453" />
+              <mxPoint x="250" y="185" />
+              <mxPoint x="250" y="473" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-4" value="daily -&amp;gt;&amp;nbsp; 每日计算每种类型全量数据去重后的统计值，至少保存两天的结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="130" width="150" height="70" as="geometry" />
+          <mxGeometry x="320" y="150" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#3333FF;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-5" target="MG0zdi_hhvn_h3WvuUcr-24">
           <mxGeometry relative="1" as="geometry" />
@@ -44,31 +44,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-5" value="s3" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="330" width="130" height="50" as="geometry" />
+          <mxGeometry x="520" y="350" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#3333FF;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-9" target="MG0zdi_hhvn_h3WvuUcr-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-9" value="daily -&amp;gt;&amp;nbsp; 最新一天的结果left join 昨天的结果，取出无法关联或统计值不同的user_id，发送到s3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="400" width="150" height="70" as="geometry" />
+          <mxGeometry x="320" y="420" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#FF3333;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-10" target="MG0zdi_hhvn_h3WvuUcr-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-10" value="daily -&amp;gt;&amp;nbsp; 最新一天的全量结果，发送到s3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="280" width="150" height="40" as="geometry" />
+          <mxGeometry x="320" y="300" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-15" target="MG0zdi_hhvn_h3WvuUcr-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-15" value="flink -&amp;gt;&amp;nbsp; 按天的翻转窗口，定时N秒触发输出，结果写到hbase表A，同时写一份到kafka" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="140" width="150" height="70" as="geometry" />
+          <mxGeometry x="880" y="160" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#330000;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-16" target="MG0zdi_hhvn_h3WvuUcr-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-16" value="Hbase: B" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="590" y="515" width="100" height="70" as="geometry" />
+          <mxGeometry x="690" y="535" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-18" target="MG0zdi_hhvn_h3WvuUcr-19">
           <mxGeometry relative="1" as="geometry" />
@@ -77,19 +77,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-18" value="flink -&amp;gt;&amp;nbsp; 按天的翻转窗口，定时N秒触发输出，结果写到hbase表A，同时写一份user_id到kafka" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="260" width="150" height="70" as="geometry" />
+          <mxGeometry x="880" y="280" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#330000;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-19" target="MG0zdi_hhvn_h3WvuUcr-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-19" value="Hbase: A" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="515" width="100" height="70" as="geometry" />
+          <mxGeometry x="1110" y="535" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#330000;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-24" target="MG0zdi_hhvn_h3WvuUcr-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-24" value="kafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="805" y="390" width="100" height="60" as="geometry" />
+          <mxGeometry x="905" y="410" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#330000;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-29" target="MG0zdi_hhvn_h3WvuUcr-34">
           <mxGeometry relative="1" as="geometry" />
@@ -98,13 +98,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-29" value="flink -&amp;gt;&amp;nbsp; 根据user_id分别查询两个hbase表，取表B的最新一条数据，表A中时间大于表B的所有数据，取sum值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="510" width="150" height="80" as="geometry" />
+          <mxGeometry x="880" y="530" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-33" value="Hbase: C" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="920" y="680" width="100" height="70" as="geometry" />
+          <mxGeometry x="1020" y="700" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-34" value="UTP" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="705" y="680" width="100" height="70" as="geometry" />
+          <mxGeometry x="805" y="700" width="100" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
