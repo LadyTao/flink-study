@@ -1,189 +1,110 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T03:17:15.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="JJXS_iqpdHRrEwCbQKS5" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T06:34:18.377Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="zlXZuv9MzvXFciKxe1h1" version="20.4.0" type="github">
   <diagram id="lKZjIByiZlXPRpi-Botg" name="第 1 页">
-    <mxGraphModel dx="1409" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-129" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFCC;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1270" width="660" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="135" y="210" width="495" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;strokeColor=#00CC00;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-2" target="-yjdNF9IUaXJCscSuPAM-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-2" value="kafka binlog" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="70" width="125" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-3" target="-yjdNF9IUaXJCscSuPAM-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-3" value="regin hive" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="260" width="125" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#FF3333;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-4" target="-yjdNF9IUaXJCscSuPAM-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-4" value="local hbase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="1">
-          <mxGeometry x="675" y="260" width="125" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="670" y="280" as="targetPoint" />
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-1" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="560" y="10" as="sourcePoint" />
+            <mxPoint x="560" y="840" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-6" target="-yjdNF9IUaXJCscSuPAM-41">
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-2" target="MG0zdi_hhvn_h3WvuUcr-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-6" value="每天执行一次，&lt;br&gt;时间范围：(oldest, T-2]，&lt;br&gt;对user_id count distinct, &lt;br&gt;主键为：(T-2) + user_id&lt;br&gt;需考虑时区" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="240" width="160" height="80" as="geometry" />
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-2" value="regin hive" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="40" width="125" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-9" target="-yjdNF9IUaXJCscSuPAM-4">
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-3" target="MG0zdi_hhvn_h3WvuUcr-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-9" target="-yjdNF9IUaXJCscSuPAM-18">
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-3" value="local maxwell kafka" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="792.5" y="40" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-4" target="MG0zdi_hhvn_h3WvuUcr-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-9" value="tumble window按天&lt;br&gt;聚合，user_id天级别&lt;br&gt;的count distinct, 需考虑&lt;br&gt;时区，写入hbase与kafka&lt;br&gt;各一份" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="140" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-18" target="-yjdNF9IUaXJCscSuPAM-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-18" value="kafka (result topic)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="260" width="125" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;strokeColor=#00CC00;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-21" target="-yjdNF9IUaXJCscSuPAM-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-21" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;1: union all 所有的user_id和统计值&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;2:&amp;nbsp; join hbase，取最近3天的数据sum&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;3: group by key sum(max_value)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="862.5" y="340" width="240" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-25" value="utp API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="450" width="125" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-29" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;冷启动与数据修复&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="380" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;strokeWidth=2;strokeColor=#00CC00;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-41" target="-yjdNF9IUaXJCscSuPAM-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-41" value="kafka (history topic)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="360" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-85" value="1: 定时任务无法区分本次哪些user_id数据发生更新，导致下游的UTP无法感知更新，全量更新则UTP压力过大&lt;br&gt;2: 如果每天将全量的数据换成(T-2, T-1]，加上join的部分，此方案与下面的方案2似乎没有什么区别" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="130" y="130" width="600" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-107" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1030" width="495" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;strokeColor=#00CC00;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-109" target="-yjdNF9IUaXJCscSuPAM-119">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-109" value="kafka binlog" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="880" width="125" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-111" target="-yjdNF9IUaXJCscSuPAM-116">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-111" value="regin hive" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="1070" width="125" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#FF3333;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-113" target="-yjdNF9IUaXJCscSuPAM-123">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-113" target="-yjdNF9IUaXJCscSuPAM-137">
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-4" target="MG0zdi_hhvn_h3WvuUcr-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="709" y="1230" />
-              <mxPoint x="649" y="1230" />
+              <mxPoint x="150" y="165" />
+              <mxPoint x="150" y="453" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-113" value="local hbase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="1">
-          <mxGeometry x="615" y="1070" width="125" height="40" as="geometry" />
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-4" value="daily -&amp;gt;&amp;nbsp; 每日计算每种类型全量数据去重后的统计值，至少保存两天的结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="130" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-116">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="1090" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-116" target="-yjdNF9IUaXJCscSuPAM-127">
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#3333FF;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-5" target="MG0zdi_hhvn_h3WvuUcr-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-116" value="对user_id, create_time, transaction_id三个字段全量数据按天的维度出一份统计值。需考虑时区" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1050" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-119" target="-yjdNF9IUaXJCscSuPAM-113">
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-5" target="MG0zdi_hhvn_h3WvuUcr-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-119" target="-yjdNF9IUaXJCscSuPAM-121">
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-5" value="s3" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="330" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#3333FF;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-9" target="MG0zdi_hhvn_h3WvuUcr-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-119" value="tumble window按天&lt;br&gt;聚合，user_id天级别&lt;br&gt;的count distinct, 需考虑&lt;br&gt;时区，写入hbase与kafka&lt;br&gt;各一份" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="940" width="160" height="80" as="geometry" />
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-9" value="daily -&amp;gt;&amp;nbsp; 最新一天的结果left join 昨天的结果，取出无法关联或统计值不同的user_id，发送到s3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="400" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-121" target="-yjdNF9IUaXJCscSuPAM-123">
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#FF3333;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-10" target="MG0zdi_hhvn_h3WvuUcr-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-121" value="kafka (result topic)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="1070" width="125" height="40" as="geometry" />
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-10" value="daily -&amp;gt;&amp;nbsp; 最新一天的全量结果，发送到s3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="280" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;strokeColor=#00CC00;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-123" target="-yjdNF9IUaXJCscSuPAM-124">
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-15" target="MG0zdi_hhvn_h3WvuUcr-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-123" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;1: union all 所有的user_id和统计值&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;2:&amp;nbsp; join hbase，user_id的全部数据&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;3: group by key sum(max_value)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="812.5" y="1155" width="240" height="80" as="geometry" />
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-15" value="flink -&amp;gt;&amp;nbsp; 按天的翻转窗口，定时N秒触发输出，结果写到hbase表A，同时写一份到kafka" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="140" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-124" value="utp API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="1280" width="125" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-125" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;冷启动&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1200" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;strokeWidth=2;strokeColor=#00CC00;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-127" target="-yjdNF9IUaXJCscSuPAM-123">
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#330000;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-16" target="MG0zdi_hhvn_h3WvuUcr-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-127" value="kafka (history topic)&lt;br&gt;每个user_id取一条数据即可，primary_key+count值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1170" width="160" height="50" as="geometry" />
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-16" value="Hbase: B" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="590" y="515" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-131" target="-yjdNF9IUaXJCscSuPAM-134">
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-18" target="MG0zdi_hhvn_h3WvuUcr-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-131" value="regin hive" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="1340" width="125" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-134" target="-yjdNF9IUaXJCscSuPAM-137">
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-18" target="MG0zdi_hhvn_h3WvuUcr-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-134" value="每天对user_id, create_time, transaction_id三个字段&lt;br&gt;(T-2,T-1]数据按天的维度&lt;br&gt;出一份统计值。需考虑时区" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1320" width="190" height="80" as="geometry" />
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-18" value="flink -&amp;gt;&amp;nbsp; 按天的翻转窗口，定时N秒触发输出，结果写到hbase表A，同时写一份user_id到kafka" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="260" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-135" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;对账流程&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="1420" width="90" height="30" as="geometry" />
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#330000;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-19" target="MG0zdi_hhvn_h3WvuUcr-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-137" target="-yjdNF9IUaXJCscSuPAM-121">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1090" y="1360" />
-              <mxPoint x="1090" y="1090" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-19" value="Hbase: A" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="515" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.375;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#00CC00;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="-yjdNF9IUaXJCscSuPAM-137" target="-yjdNF9IUaXJCscSuPAM-113">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="601" y="1210" />
-              <mxPoint x="646" y="1210" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#330000;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-24" target="MG0zdi_hhvn_h3WvuUcr-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-137" value="join Hbase, 如果hbase值小，&lt;br&gt;则启动更新流程，覆盖对应的hbase值，同时发送一份到kafka,&lt;br&gt;促动下游utp的更新" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="1320" width="190" height="80" as="geometry" />
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-24" value="kafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="805" y="390" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-yjdNF9IUaXJCscSuPAM-145" value="1: binlog数据乱序，数据迟到不可避免，导致flink窗口的统计值不准确，通过对账流程解决该问题&lt;br&gt;2: 业务数据会更新，如果一条数据在两个窗口内都出现，则会被统计两次，无法彻底解决&lt;br&gt;3: 当任务不从ck恢复，而是往前拨offset，如果拨的太久（超过2天前），会污染hbase数据，&lt;br&gt;如果拨太小（几小时，几分钟），则会使最近的数据不准确，依赖对账流程再去修复&lt;br&gt;4: 目前的对账流程对detail级别的校验还有点问题，需要进一步开发" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="80" y="910" width="530" height="90" as="geometry" />
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#330000;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-29" target="MG0zdi_hhvn_h3WvuUcr-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#330000;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-29" target="MG0zdi_hhvn_h3WvuUcr-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-29" value="flink -&amp;gt;&amp;nbsp; 根据user_id分别查询两个hbase表，取表B的最新一条数据，表A中时间大于表B的所有数据，取sum值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="510" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-33" value="Hbase: C" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="920" y="680" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-34" value="UTP" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="705" y="680" width="100" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
