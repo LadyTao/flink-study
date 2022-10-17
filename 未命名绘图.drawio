@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T06:35:15.652Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="KTPL6VWAPqNHZStNC7GA" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T08:15:18.208Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="WQJyI68pV8PyrrmNZ0Pa" version="20.4.0" type="github">
   <diagram id="lKZjIByiZlXPRpi-Botg" name="第 1 页">
-    <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#3333FF;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-9" target="MG0zdi_hhvn_h3WvuUcr-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MG0zdi_hhvn_h3WvuUcr-9" value="daily -&amp;gt;&amp;nbsp; 最新一天的结果left join 昨天的结果，取出无法关联或统计值不同的user_id，发送到s3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-9" value="daily -&amp;gt;&amp;nbsp; 最新一天的结果left join 昨天的结果，取出无法关联或统计值不同的[rowkey, cnt]&amp;nbsp;，发送到s3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="420" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#FF3333;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-10" target="MG0zdi_hhvn_h3WvuUcr-5">
@@ -76,7 +76,7 @@
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-18" target="MG0zdi_hhvn_h3WvuUcr-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MG0zdi_hhvn_h3WvuUcr-18" value="flink -&amp;gt;&amp;nbsp; 按天的翻转窗口，定时N秒触发输出，结果写到hbase表A，同时写一份user_id到kafka" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-18" value="flink -&amp;gt;&amp;nbsp; 按天的翻转窗口，定时N秒触发输出，结果写到hbase表A，同时写一份[rowkey, cnt] 到kafka" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="280" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#330000;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-19" target="MG0zdi_hhvn_h3WvuUcr-29">
