@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T07:42:38.573Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="GROjnkWmOWNvTMxYA4Dd" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-20T08:11:46.835Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ixs1CD-ZpJIi9CWEYhaY" version="20.4.1" type="github">
   <diagram id="lKZjIByiZlXPRpi-Botg" name="第 1 页">
     <mxGraphModel dx="1234" dy="1092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -222,8 +222,8 @@
             <mxRectangle width="70" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-165" value="对账解决2个问题：&lt;br&gt;（1）超出实时TTL后，transaction由成功转成其他状态，造成比实际值大；&lt;br&gt;（2）实时kafka消费过程中丢失某些数据（可能性极小，实际上region hive丢失的可能更大）；&lt;br&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="520" y="740" width="570" height="60" as="geometry" />
+        <mxCell id="oHk_MaHtcIPB9RxffI-C-165" value="对账解决3个问题：&lt;br&gt;（1）超出TTL之后，某一个订单转变为sucess，此时实时过程会过滤掉此数据；&lt;br&gt;（2）超出实时TTL后，transaction由成功转成其他状态，造成比实际值大；&lt;br&gt;（3）实时kafka消费过程中丢失某些数据（可能性极小，实际上region hive丢失的可能更大）；" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="520" y="730" width="570" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oHk_MaHtcIPB9RxffI-C-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#330000;strokeWidth=2;fontSize=13;" edge="1" parent="1" source="oHk_MaHtcIPB9RxffI-C-166" target="oHk_MaHtcIPB9RxffI-C-168">
           <mxGeometry relative="1" as="geometry" />
