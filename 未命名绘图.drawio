@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-10-21T07:04:25.725Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Ts5YrmhklAx3GTvSkvbh" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-21T07:04:45.231Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="6du149EOjOGP0eHsfGfp" version="20.4.1" type="github">
   <diagram id="lKZjIByiZlXPRpi-Botg" name="第 1 页">
     <mxGraphModel dx="1234" dy="1092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-167" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;TableC&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;full outer join&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;rightTable" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=13;fillColor=default;align=left;" vertex="1" parent="1">
-          <mxGeometry x="640" y="990" width="260" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-1" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;strokeWidth=2;dashed=1;strokeColor=#00CC00;startArrow=none;" parent="1" edge="1" source="MG0zdi_hhvn_h3WvuUcr-5">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="654" y="27" as="sourcePoint" />
@@ -71,7 +68,7 @@
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-29" value="flink -&amp;gt;&amp;nbsp; 根据user_id查询ViewA视图，取上游用户在视图A的所有数据，再join HbaseA, 取viewA日期大于Hbase A的所有数据， 取sum值" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="955" y="405" width="168" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="MG0zdi_hhvn_h3WvuUcr-33" value="Hbase: C" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-33" value="Hbase: B" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="1072.5" y="540" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-34" value="UTP" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
@@ -114,79 +111,6 @@
             <mxPoint x="650" y="690" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-121" value="离线对账流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="750" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-138" value="HbaseA全量历史数据" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="290" y="850" width="210" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-139" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=17;" vertex="1" parent="oHk_MaHtcIPB9RxffI-C-138">
-          <mxGeometry y="30" width="210" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-140" value="userA" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#CCCCCC;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;" vertex="1" parent="oHk_MaHtcIPB9RxffI-C-139">
-          <mxGeometry width="60" height="40" as="geometry">
-            <mxRectangle width="60" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-141" value="20221017" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;" vertex="1" parent="oHk_MaHtcIPB9RxffI-C-139">
-          <mxGeometry x="60" width="80" height="40" as="geometry">
-            <mxRectangle width="80" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-142" value="100" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;" vertex="1" parent="oHk_MaHtcIPB9RxffI-C-139">
-          <mxGeometry x="140" width="70" height="40" as="geometry">
-            <mxRectangle width="70" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-155" value="HbaseB实时写入数据" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="290" y="970" width="190" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-156" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=17;" vertex="1" parent="oHk_MaHtcIPB9RxffI-C-155">
-          <mxGeometry y="30" width="190" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-157" value="userA_20221019" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#CCCCCC;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;" vertex="1" parent="oHk_MaHtcIPB9RxffI-C-156">
-          <mxGeometry width="140" height="40" as="geometry">
-            <mxRectangle width="140" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-159" value="5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;" vertex="1" parent="oHk_MaHtcIPB9RxffI-C-156">
-          <mxGeometry x="140" width="50" height="40" as="geometry">
-            <mxRectangle width="50" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-160" value="HbaseC写入UTP数据" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="290" y="1080" width="210" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-161" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=17;" vertex="1" parent="oHk_MaHtcIPB9RxffI-C-160">
-          <mxGeometry y="30" width="210" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-162" value="userA" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#CCCCCC;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;" vertex="1" parent="oHk_MaHtcIPB9RxffI-C-161">
-          <mxGeometry width="60" height="40" as="geometry">
-            <mxRectangle width="60" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-163" value="20221019" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;" vertex="1" parent="oHk_MaHtcIPB9RxffI-C-161">
-          <mxGeometry x="60" width="80" height="40" as="geometry">
-            <mxRectangle width="80" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-164" value="105" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=17;" vertex="1" parent="oHk_MaHtcIPB9RxffI-C-161">
-          <mxGeometry x="140" width="70" height="40" as="geometry">
-            <mxRectangle width="70" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-165" value="对账解决3个问题：&lt;br&gt;（1）超出TTL之后，某一个订单转变为sucess，此时实时过程会过滤掉此数据；&lt;br&gt;（2）超出实时TTL后，transaction由成功转成其他状态，造成比实际值大；&lt;br&gt;（3）实时kafka消费过程中丢失某些数据（可能性极小，实际上region hive丢失的可能更大）；" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="520" y="730" width="570" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#330000;strokeWidth=2;fontSize=13;" edge="1" parent="1" source="oHk_MaHtcIPB9RxffI-C-166" target="oHk_MaHtcIPB9RxffI-C-168">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-166" value="TableA&lt;br&gt;full outer join&amp;nbsp;&lt;br&gt;Table B" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=13;fillColor=#CCCCCC;" vertex="1" parent="1">
-          <mxGeometry x="760" y="990" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oHk_MaHtcIPB9RxffI-C-168" value="kafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="990" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oHk_MaHtcIPB9RxffI-C-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.31;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;strokeWidth=2;fontSize=13;" edge="1" parent="1" source="oHk_MaHtcIPB9RxffI-C-174" target="MG0zdi_hhvn_h3WvuUcr-5">
           <mxGeometry relative="1" as="geometry" />
