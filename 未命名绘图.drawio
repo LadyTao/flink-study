@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T02:29:21.589Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="hYMcdcsEDZtxSrz7avYQ" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T02:06:02.929Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="-yCvuCOUhNHQBlGyt-mV" version="20.4.2" type="github">
   <diagram id="lKZjIByiZlXPRpi-Botg" name="第 1 页">
     <mxGraphModel dx="834" dy="1088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="MG0zdi_hhvn_h3WvuUcr-4" target="MG0zdi_hhvn_h3WvuUcr-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MG0zdi_hhvn_h3WvuUcr-4" value="每日计算每种类型全量数据去重后的统计值，保留至少两天" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MG0zdi_hhvn_h3WvuUcr-4" value="每日计算每种类型全量数据去重后的统计值" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="180" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#330000;" parent="1" source="MG0zdi_hhvn_h3WvuUcr-10" target="MG0zdi_hhvn_h3WvuUcr-5" edge="1">
@@ -35,6 +35,9 @@
           <mxGeometry x="810" y="415" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="shOLibGxNkgPPS2zfrvz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-18" target="oHk_MaHtcIPB9RxffI-C-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="shOLibGxNkgPPS2zfrvz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="MG0zdi_hhvn_h3WvuUcr-18" target="shOLibGxNkgPPS2zfrvz-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-18" value="flink -&amp;gt;&amp;nbsp; 按日期聚合，形成临时视图viewA，并将user_id下发至kafka" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -55,11 +58,11 @@
         <mxCell id="MG0zdi_hhvn_h3WvuUcr-34" value="UTP" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="887.5" y="540" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="shOLibGxNkgPPS2zfrvz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="oHk_MaHtcIPB9RxffI-C-94" target="MG0zdi_hhvn_h3WvuUcr-29">
+        <mxCell id="shOLibGxNkgPPS2zfrvz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="oHk_MaHtcIPB9RxffI-C-94" target="MG0zdi_hhvn_h3WvuUcr-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oHk_MaHtcIPB9RxffI-C-94" value="viewA" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="988.5" y="297" width="100" height="60" as="geometry" />
+          <mxGeometry x="1090" y="298" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oHk_MaHtcIPB9RxffI-C-100" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Region Scheduler&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="410" y="-15" width="219" height="60" as="geometry" />
@@ -81,6 +84,12 @@
             <mxPoint x="730" y="640" as="sourcePoint" />
             <mxPoint x="730" y="-45" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="shOLibGxNkgPPS2zfrvz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="shOLibGxNkgPPS2zfrvz-3" target="MG0zdi_hhvn_h3WvuUcr-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="shOLibGxNkgPPS2zfrvz-3" value="kafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="887.5" y="298" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
